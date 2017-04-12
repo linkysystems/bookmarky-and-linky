@@ -19,7 +19,14 @@
     "mysql": "^2.13.0",
     "we-core": "^1.12.6",
     "we-plugin-auth": "^1.2.1",
-    "we-plugin-user": "^1.1.6"
+    "we-plugin-user": "^1.1.6",
+    "we-plugin-acl": "^1.2.11",
+    "we-plugin-url-alias": "^1.1.1",
+    "we-plugin-vocabulary": "^1.2.1",
+    "we-plugin-user-settings": "^1.1.0",
+    "we-passport-oauth2-password": "^1.1.2",
+    "we-plugin-i18n-api": "^1.0.0",
+    "we-plugin-email": "^1.1.2"
   },
   "devDependencies": {
     "istanbul": "^0.4.5",
@@ -32,7 +39,15 @@
   "wejs": {
     "plugins": {
       "we-plugin-user": true,
-      "we-plugin-auth": true
-    }
+      "we-plugin-auth": true,
+      "we-plugin-acl": true,
+      "we-plugin-url-alias": true,
+      "we-plugin-vocabulary": true,
+      "we-plugin-user-settings": true,
+      "we-passport-oauth2-password": true,
+      "we-plugin-i18n-api": true,
+      "we-plugin-email": true
+    },
+    "devPlugins": {}
   }
 }
